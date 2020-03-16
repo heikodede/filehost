@@ -1930,8 +1930,8 @@ GUI.CLASS_CLOSE_TOP = 'close-top';
 GUI.CLASS_CLOSE_BOTTOM = 'close-bottom';
 GUI.CLASS_DRAG = 'drag';
 GUI.DEFAULT_WIDTH = 245;
-GUI.TEXT_CLOSED = 'Close Infection Controls';
-GUI.TEXT_OPEN = 'Open Infection Controls';
+GUI.TEXT_CLOSED = 'Close Panel';
+GUI.TEXT_OPEN = 'Modify Infection Parameters';
 GUI._keydownHandler = function (e) {
   if (document.activeElement.type !== 'text' && (e.which === HIDE_KEY_CODE || e.keyCode === HIDE_KEY_CODE)) {
     GUI.toggleHide();
